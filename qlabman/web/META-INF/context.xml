@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/" swallowOutput="true" unloadDelay="500">
+
+    <Resource name="IntegrationBeanManager"
+              auth="Container"
+              type="javax.enterprise.inject.spi.BeanManager"
+              factory="org.apache.webbeans.container.ManagerObjectFactory"/>
+
+</Context>

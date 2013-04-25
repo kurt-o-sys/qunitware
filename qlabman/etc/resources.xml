@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <Resource id="jdbc/qlabmanJTA" type="javax.sql.DataSource">
+        JtaManaged = true
+        JdbcDriver = org.postgresql.Driver
+        JdbcUrl = jdbc:postgresql://localhost:5432/qunitware
+        UserName = pieterprovoost
+        Password = pIETERpROVOOST
+        <!--	maxActive="5"
+        maxIdle="1"
+        maxWait="10000" -->
+    </Resource>
+    <Resource id="jdbc/qlabmanNonJTA" type="javax.sql.DataSource">
+        JtaManaged = false
+        JdbcDriver = org.postgresql.Driver
+        JdbcUrl = jdbc:postgresql://localhost:5432/qunitware
+        UserName = pieterprovoost
+        Password = pIETERpROVOOST
+        <!--	maxActive="5"
+        maxIdle="1"
+        maxWait="10000" -->
+    </Resource>
+</resources>
